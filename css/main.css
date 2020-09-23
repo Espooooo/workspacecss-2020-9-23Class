@@ -85,11 +85,59 @@ h1{
   
 }
 /** 03 Position, Size, layout **/
+div,
+article,
+section,
+header,
+footer,
+nav,
+figure,
+li{
+  position: relative;
+}
+
+aside.sidebar{
+  position: absolute;
+  top: 3%;
+  right: 0;
+  width: 27%;
+}
+
+section.intro{
+  width: 99%;
+  padding: 5%;
+}
 
 
+section.intro div.preabmble{
+  margin-left: -66%;
+  padding: 5% 5% 5% 30%;
+}
 
+div.page-wrapper{
+  z-index: 2;
+}
 
+div.extra1{
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  width: 30%;
+  height: 0;
+}
 
-
-
+div.explanation{
+  float: left;
+  width: 40%;
+  padding: 5%;
+}
+div.participation{
+  float:left;
+  width:30%;
+  padding:5%;
+}
+div.summary{
+  display:none;
+}
 /**	05	Media  **/
